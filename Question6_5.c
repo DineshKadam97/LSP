@@ -34,7 +34,6 @@ int main(int argc, char *argv[])
     }
 
     lseek(fd, atoi(argv[2]), SEEK_SET);
-    remove(argv[1]);
-
+    
     return 0;
 }
