@@ -8,4 +8,4 @@ int FactorsSum(int);
 float FactorsAvg(int);
 
 unsigned long int Factorial(int);
-unsigned long int Exponent(int , int);
+unsigned long int Exponent(int,int);
