@@ -30,7 +30,7 @@
 // Function Name : CheckPerfect
 // Input :         Integer
 // Output :        Boolean(true or false)
-// Description :   It checks whether number is CheckPerfect or not.
+// Description :   It checks whether number is Perfect or not.
 // 
 ////////////////////////////////////////////////////////////////////////////////////////////
 
