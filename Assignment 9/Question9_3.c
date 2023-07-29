@@ -1,0 +1,20 @@
+/////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Problem Statement : Write  a program to print priority of process.
+//
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+#include<stdio.h>
+#include<sys/resource.h>
+#include<unistd.h>
+
+int main()
+{
+    int iRet = 0;
+
+    iRet = getpriority(PRIO_PROCESS, 0);
+
+    printf("Priority of the process is %d\n", iRet);
+
+    return 0;
+}

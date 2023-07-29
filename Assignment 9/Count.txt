@@ -1,0 +1,2 @@
+Number of capital letters  in Demo.txt are : 256
+Number of small characters in the Hello.txt are : 263
