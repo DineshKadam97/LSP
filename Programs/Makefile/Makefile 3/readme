@@ -1,0 +1,15 @@
+This application contains three files as
+1. main.c
+2. helper.c
+3. header.h
+we can compile this application as 
+	gcc main.c helper.c -o final
+
+After this command final named executable file gets created then we can runthis file as
+	./final
+
+To perform this above task we can create makefile and write the above command in that file as it is.
+all is the first target in this makefile.
+
+In this makefile we are creating multiple targets and its dependencies.
+In this makefile first we create first .o file by using gcc command and then combine that all .o files.

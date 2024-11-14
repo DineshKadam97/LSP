@@ -1,0 +1,19 @@
+This application contains three files as
+1. main.c
+2. helper.c
+3. header.h
+we can compile this application as 
+	gcc main.c helper.c -o final
+
+After this command final named executable file gets created then we can runthis file as
+	./final
+
+To perform this above task we can create makefile and write the above command in that file as it is.
+all is the first target in this makefile.
+we can also add multiple target in this makefile but by defaut first target gets executed.
+In this makefile compile is the second target which contains actual compilation command and all is the first
+target which contains nothing. 
+we can use command as make which run our makefile and does nothing because our first target is empty.
+but we can fire this command as 
+	make compile
+which compile our program successfully.
