@@ -1,0 +1,17 @@
+				module name : hello-1
+build makefile
+
+if there is any problem in our kernel then download requred linux headers as
+		apt-get install build-essential linux-headers-$(uname -r)
+
+get information of our module using modinfo .ko
+
+insert module using insmod .ko
+
+get list of all installed module as lsmod
+
+check kernel log using /var/log/syslog file
+
+remove kernel module using rmmod
+
+
