@@ -26,7 +26,7 @@
 MODULE_LICENSE("GPL");
 
 // The author -- visible when you use modinfo
-MODULE_AUTHOR("Piyush Khairnar");
+MODULE_AUTHOR("Dinesh Kadam");
 
 
 MODULE_DESCRIPTION("Marvellous : Demo character driver");
